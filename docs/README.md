@@ -1,9 +1,7 @@
+# Serial
+
 [![GoDoc](https://godoc.org/github.com/xluohome/serial?status.svg)](http://godoc.org/github.com/xluohome/serial)
 
-
-![](uart.jpg)
-
-# Serial
 
 Serial 是一个Go语言实现的串口(Uart)接口包,可使用操作系统标准的 read 和 write 文件接口
 实现串口字节流的接收和发送。
@@ -11,7 +9,16 @@ Serial 是一个Go语言实现的串口(Uart)接口包,可使用操作系统标�
 
 ## 默认配置
  
-> 8 N 1 N （数据位: 8 奇偶校验: N 停止位: 1 数据流控: N）
+!> 8 N 1 N （数据位: 8 奇偶校验: N 停止位: 1 数据流控: N）
+
+
+## Links
+
+* [Serial](https://github.com/xluohome/serial)
+
+## GoDoc 
+
+* [GoDoc](http://godoc.org/github.com/xluohome/serial)
 
 
 ## 代码使用
@@ -66,4 +73,6 @@ timeout between two bytes.
 	n, _ = s.Read(buf)
 ```
 
- 
+## License
+
+BSD
